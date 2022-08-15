@@ -1,0 +1,56 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabber/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/tabber/space/space",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabber/study/study",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"color": "#a9a8b6",
+		"fontSize": "20rpx",
+		"selectedColor": "black",
+		"iconWidth": "50rpx",
+		"list": [{
+			"iconPath": "static/tabbar/index1.png",
+			"pagePath": "pages/tabber/space/space",
+			"selectedIconPath": "static/tabbar/index1_selected.png",
+			"text": "首页"
+		}, {
+			"iconPath": "static/tabbar/learn.png",
+			"pagePath": "pages/tabber/study/study",
+			"selectedIconPath": "static/tabbar/learn_selected.png",
+			"text": "学习"
+		}, {
+			"iconPath": "static/tabbar/home.png",
+			"pagePath": "pages/index/index",
+			"selectedIconPath": "static/tabbar/home_selected.png",
+			"text": "我的"
+		}]
+	}
+}
