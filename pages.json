@@ -31,14 +31,12 @@
 	},
 	"uniIdRouter": {},
 	"tabBar": {
-		"backgroundColor": "#fff",
-		"color": "#a9a8b6",
-		"fontSize": "20rpx",
-		"selectedColor": "black",
-		"iconWidth": "50rpx",
+		"color": "#BBBAC7",
+		"selectedColor": "#2C2C2C",
+		"borderStyle": "black",
 		"list": [{
 			"iconPath": "static/tabbar/index1.png",
-			"pagePath": "pages/tabber/space/space",
+			"pagePath": "pages/index/index",
 			"selectedIconPath": "static/tabbar/index1_selected.png",
 			"text": "首页"
 		}, {
@@ -48,7 +46,7 @@
 			"text": "学习"
 		}, {
 			"iconPath": "static/tabbar/home.png",
-			"pagePath": "pages/index/index",
+			"pagePath": "pages/tabber/space/space",
 			"selectedIconPath": "static/tabbar/home_selected.png",
 			"text": "我的"
 		}]
