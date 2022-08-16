@@ -3,6 +3,7 @@
 		{
 			"path": "pages/tabber/index/index",
 			"style": {
+				"enablePullDownRefresh": true,
 				"app-plus": {
 					"titleNView": false
 				}
@@ -11,7 +12,10 @@
 			"path": "pages/tabber/space/space",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
 			}
 
 		}, {
@@ -25,7 +29,7 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "uni -app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
@@ -36,7 +40,7 @@
 		"borderStyle": "black",
 		"list": [{
 			"iconPath": "static/tabbar/index1.png",
-			"pagePath": "pages/index/index",
+			"pagePath": "pages/tabber/index/index",
 			"selectedIconPath": "static/tabbar/index1_selected.png",
 			"text": "首页"
 		}, {
