@@ -39,8 +39,10 @@
 			"path": "pages/login/index",
 			"style": {
 				"navigationBarTitleText": "",
-				"navigationStyle": "custom",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
 			}
 		}
 	],
