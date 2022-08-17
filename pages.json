@@ -13,18 +13,35 @@
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#5ccc84",
+				"navigationBarTextStyle": "white",
 				"app-plus": {
-					"titleNView": false
+					"titleNView": {
+						"buttons": [{
+							"text": "···",
+							"onclick": "onNavigationBarButtonTap"
+						}, {
+							"text": "  我的",
+							"fontSize": "33rpx",
+							"float": "left"
+						}]
+					}
 				}
 			}
-
 		}, {
 			"path": "pages/tabber/study/study",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
-
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
 		}
 	],
 	"globalStyle": {

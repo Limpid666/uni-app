@@ -1,5 +1,7 @@
 import App from './App'
 import 'animate.css';
+import api from '@/api/api.js';
+Vue.prototype.$api = api
 
 // #ifndef VUE3
 import Vue from 'vue'

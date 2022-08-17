@@ -6,11 +6,11 @@
 		</view>
 		<view class="flex flex-column flex-shrink">
 			<text class="text-ellipsis font-md titele my-1">{{item.title}}</text>
-			<view class="font-sm text-light-muted my-1">10已抢</view>
-			<view class="flex flex-1 align-end">
+			<view class="text-ellipsis font-sm text-light-muted my-1 titele" v-html="item.try" v-if="item.try"
+				style="width: 240rpx;"></view>
+			<view class="flex flex-1 align-end align-center">
 				<text class="font-md text-danger">￥{{item.price}}</text>
-				<text class="font-sm text-light-muted p-1"
-					style="text-decoration-line: line-through;">￥{{item.t_price}}</text>
+				<text class="font-sm text-light-muted p-1 text-through">￥{{item.t_price}}</text>
 			</view>
 		</view>
 	</view>
